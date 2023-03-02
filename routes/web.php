@@ -25,7 +25,7 @@ Route::prefix('category')->group(function () {
     Route::get('/marbel-and-friends-kids-games', function () {
         return redirect('https://www.educastudio.com/category/marbel-and-friends-kids-games');
     });
-    Route::get('/riri-story-books', function () {
+    Route::get('/riri-story-books-animations', function () {
         return redirect('https://www.educastudio.com/category/riri-story-books-animations');
     });
     Route::get('/kolak-kids-songs', function () {
